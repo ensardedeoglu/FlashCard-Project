@@ -14,7 +14,7 @@
   },
   "scripts": {
     "predeploy": "npm run build", 
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
     "start": "concurrently 'npm run start:server' 'npm run start:react'",
     "start:react": "react-scripts start",
     "start:server": "json-server ./data/db.json",
